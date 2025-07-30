@@ -1,1 +1,0 @@
-# itgenius-app-kubernetes
