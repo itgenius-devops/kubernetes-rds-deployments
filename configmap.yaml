@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: itgenius-config
 data:
-  DB_URL: "jdbc:mysql://itgeniusdb.cfouo2oco23b.us-east-1.rds.amazonaws.com:3306/itgeniusdb"
+  DB_URL: "jdbc:mysql://itgeniusdb.cepa48wa8kv8.us-east-1.rds.amazonaws.com:3306/itgeniusk8sdb"
   SERVER_PORT: "8085"
