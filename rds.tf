@@ -18,7 +18,7 @@ resource "aws_db_instance" "itgenius_instance" {
   engine                 = "mysql"
   engine_version         = var.db_engine_version
   instance_class         = var.db_instance_class
-  identifier             = "itgeniusdb"
+  identifier             = "itgeniusk8sdb"
   db_name                = var.db_name
   username               = local.db_credentials["username"]
   password               = local.db_credentials["password"]
@@ -41,4 +41,5 @@ resource "aws_db_subnet_group" "itgenius_subnet_group" {
   tags = {
     Name = "itgenius-db-subnet-group"
   }
+
 }
